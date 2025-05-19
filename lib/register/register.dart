@@ -161,7 +161,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                           ElevatedButton(
                             onPressed: _register,
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.blue,
+                              backgroundColor: Colors.blue.shade800,
                               minimumSize: Size(double.infinity, 50),
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                             ),

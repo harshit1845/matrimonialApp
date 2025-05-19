@@ -100,8 +100,8 @@ class _HomeContentState extends State<HomeContent> {
                 height: 18,
                 width: 18,
                 alignment: Alignment.center,
-                decoration: const BoxDecoration(
-                  color: Colors.green,
+                decoration:  BoxDecoration(
+                  color: Colors.blue.shade800,
                   shape: BoxShape.circle,
                 ),
                 child: const Text('2',
@@ -156,7 +156,7 @@ class _HomeContentState extends State<HomeContent> {
                 const SizedBox(height: 4),
                 LinearProgressIndicator(
                   value: 0.4,
-                  color: Colors.orange,
+                  color: Colors.blue.shade800,
                   backgroundColor: Colors.grey.shade300,
                 ),
                 const SizedBox(height: 6),
@@ -164,7 +164,7 @@ class _HomeContentState extends State<HomeContent> {
                   onTap: () {},
                   child: Text('Complete Now',
                       style: GoogleFonts.poppins(
-                          color: Colors.blue,
+                          color: Colors.blue.shade800,
                           fontSize: 13,
                           decoration: TextDecoration.underline)),
                 )

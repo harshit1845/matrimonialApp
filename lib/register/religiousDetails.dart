@@ -86,7 +86,7 @@ class _ReligiousCasteDetailsState extends State<ReligiousCasteDetails> {
                           value: 0.4,
                           strokeWidth: 6,
                           backgroundColor: Colors.grey[300],
-                          valueColor: AlwaysStoppedAnimation(Colors.blue),
+                          valueColor: AlwaysStoppedAnimation(Colors.blue.shade800),
                         ),
                       ),
                       Text('3 of 7', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.bold)),
@@ -97,7 +97,7 @@ class _ReligiousCasteDetailsState extends State<ReligiousCasteDetails> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text('Religious & Caste Details', style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold)),
-                      Text('Next Step: Location Details', style: GoogleFonts.poppins(color: Colors.grey)),
+                      Text('Next Step: Education Details', style: GoogleFonts.poppins(color: Colors.grey)),
                     ],
                   ),
                 ],
@@ -120,7 +120,7 @@ class _ReligiousCasteDetailsState extends State<ReligiousCasteDetails> {
                 width: double.infinity,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.blue.shade800,
                     padding: EdgeInsets.symmetric(vertical: 16),
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                   ),

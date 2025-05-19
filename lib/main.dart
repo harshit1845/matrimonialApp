@@ -14,7 +14,7 @@ class MatrimonyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
-      initialRoute: AppRoutes.home,
+      initialRoute: AppRoutes.login,
       routes: AppRoutes.routes,
       debugShowCheckedModeBanner: false,
     );

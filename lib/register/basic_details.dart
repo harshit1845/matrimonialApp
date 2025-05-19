@@ -118,7 +118,7 @@ class _RegistrationFlowState extends State<RegistrationFlow> {
                       value: 0.2,
                       strokeWidth: 6,
                       backgroundColor: Colors.grey[300],
-                      valueColor: AlwaysStoppedAnimation(Colors.blue),
+                      valueColor: AlwaysStoppedAnimation(Colors.blue.shade800),
                     ),
                   ),
                   Text('2 of 7', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.bold)),
@@ -157,7 +157,7 @@ class _RegistrationFlowState extends State<RegistrationFlow> {
             width: double.infinity,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+                backgroundColor: Colors.blue.shade800,
                 padding: EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               ),

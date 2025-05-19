@@ -12,7 +12,7 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final sections = [
       {'title': 'Basic Details', 'icon': Icons.person, 'route': '/register'},
-      {'title': 'Basic Details', 'icon': Icons.person, 'route': '/register'},
+      {'title': 'Basic Details', 'icon': Icons.person, 'route': '/basicdetails'},
       {'title': 'Religious & Caste', 'icon': Icons.temple_hindu, 'route': '/religiousDetails'},
       {'title': 'Education & Career', 'icon': Icons.school, 'route': '/education_details'},
       {'title': 'Family Details', 'icon': Icons.family_restroom, 'route': '/family_details'},
